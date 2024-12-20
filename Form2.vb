@@ -76,9 +76,8 @@ Public Class Form2
         Try
             conn.Open()
             Dim Query As String
-            Query = $"select * from white.edata where Eid = @Eid"
+            Query = $"select * from white.edata"
             COMMAND = New MySqlCommand(Query, conn)
-            COMMAND.Parameters.AddWithValue("@Eid", TextBox_Eid.Text)
             READER = COMMAND.ExecuteReader
 
             While READER.Read
