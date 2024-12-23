@@ -33,18 +33,19 @@ Partial Class Form1
         ' btnTest
         ' 
         btnTest.BackColor = SystemColors.ControlLight
+        btnTest.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnTest.Location = New Point(9, 9)
         btnTest.Margin = New Padding(0)
         btnTest.Name = "btnTest"
-        btnTest.Size = New Size(600, 40)
+        btnTest.Size = New Size(600, 46)
         btnTest.TabIndex = 0
         btnTest.Text = "CHECK CONNECTION"
         btnTest.UseVisualStyleBackColor = False
         ' 
         ' Username
         ' 
-        Username.Font = New Font("Times New Roman", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Username.Location = New Point(115, 90)
+        Username.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Username.Location = New Point(104, 94)
         Username.Name = "Username"
         Username.Size = New Size(165, 28)
         Username.TabIndex = 1
@@ -52,16 +53,17 @@ Partial Class Form1
         ' 
         ' TextBox_Un
         ' 
-        TextBox_Un.Location = New Point(246, 87)
+        TextBox_Un.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        TextBox_Un.Location = New Point(246, 81)
         TextBox_Un.Multiline = True
         TextBox_Un.Name = "TextBox_Un"
-        TextBox_Un.Size = New Size(244, 31)
+        TextBox_Un.Size = New Size(244, 41)
         TextBox_Un.TabIndex = 2
         ' 
         ' Password
         ' 
-        Password.Font = New Font("Times New Roman", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Password.Location = New Point(115, 127)
+        Password.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Password.Location = New Point(104, 140)
         Password.Name = "Password"
         Password.Size = New Size(145, 33)
         Password.TabIndex = 3
@@ -69,18 +71,20 @@ Partial Class Form1
         ' 
         ' TextBox_Pass
         ' 
-        TextBox_Pass.Location = New Point(246, 124)
+        TextBox_Pass.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        TextBox_Pass.Location = New Point(246, 132)
         TextBox_Pass.Multiline = True
         TextBox_Pass.Name = "TextBox_Pass"
         TextBox_Pass.PasswordChar = "*"c
-        TextBox_Pass.Size = New Size(244, 31)
+        TextBox_Pass.Size = New Size(244, 41)
         TextBox_Pass.TabIndex = 4
         ' 
         ' Login
         ' 
-        Login.Location = New Point(284, 173)
+        Login.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Login.Location = New Point(296, 193)
         Login.Name = "Login"
-        Login.Size = New Size(112, 37)
+        Login.Size = New Size(119, 45)
         Login.TabIndex = 5
         Login.Text = "Login"
         Login.UseVisualStyleBackColor = True
